@@ -1,0 +1,63 @@
+/* This is a css file for the event page */
+
+/* Set the font family and size for the whole document */
+* {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Set the margin and padding for the container div */
+  .container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+  }
+  
+  /* Set the style for the heading 1 */
+  h1 {
+    text-align: center;
+    color: blue;
+    font-size: 32px;
+  }
+  
+  /* Set the style for the paragraph */
+  p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  /* Set the style for the unordered list */
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  
+  /* Set the style for the button */
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 1.25em;
+  }
+  
+  /* Change the button color on hover */
+  .button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Add a custom background image */
+  body {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  

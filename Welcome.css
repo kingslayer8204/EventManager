@@ -1,0 +1,61 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply common styles to the body element for the welcome page */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url('orchid.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the top */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style for the welcome container */
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* White container background with transparency */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from the top */
+}
+
+/* Style for h1 and p elements in the welcome page */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style for the "Explore Events" and "Organize an Event" buttons */
+.explore-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ffeb3b; /* Bright yellow button background */
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.explore-button:hover {
+    background-color: #f7d93e; /* Slightly darker yellow on hover */
+}

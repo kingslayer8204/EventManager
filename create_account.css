@@ -1,0 +1,79 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply common styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the container */
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the "Create an Account" form */
+.create-account-form {
+    margin-top: 20px;
+}
+
+/* Style for form groups (labels and input fields) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style for input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the "Create Account" button */
+.create-account-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.create-account-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the "Already have an account" link */
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: 'Amaze', sans-serif;
+    background-image: url('bg.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Set the height to 80% of the viewport height */
+    margin: 0;
+}
